@@ -120,7 +120,7 @@ B. 도서관리
 
 # 구현
 
-분석/설계 단계에서 도출된 헥사고날 아키텍처에 따라,구현한 각 서비스를 로컬에서 실행하는 방법은 아래와 같다 (각자의 포트넘버는 8081 ~ 8086이다)
+분석/설계 단계에서 도출된 헥사고날 아키텍처에 따라,구현한 각 서비스를 로컬에서 실행하는 방법은 아래와 같다 (각자의 포트넘버는 8081 ~ 8089이다)
 
 ```shell
 cd book
@@ -139,6 +139,12 @@ cd mypage
 mvn spring-boot:run
 
 cd alert 
+mvn spring-boot:run
+
+cd reservation
+mvn spring-boot:run
+
+cd customer
 mvn spring-boot:run
 
 cd gateway
