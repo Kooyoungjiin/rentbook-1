@@ -114,7 +114,7 @@ B. 도서관리
     - 호출관계에서 PubSub 과 Req/Resp 를 구분함
     - 서브 도메인과 바운디드 컨텍스트의 분리
     
-![image](https://user-images.githubusercontent.com/89369983/133120467-3a6f40a2-3658-44b0-9064-e5b7c6ffbf6c.png)
+![9](https://user-images.githubusercontent.com/33479996/134550890-0f31d9dc-1a05-43c5-94c8-aeb75fb15a0d.PNG)
 
 
 
