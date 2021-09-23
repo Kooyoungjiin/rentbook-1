@@ -95,7 +95,7 @@ B. 도서관리
 ![7](https://user-images.githubusercontent.com/33479996/134548065-7dc76fcc-10f1-4111-8f9d-f78523487deb.PNG)
 
 ### 완성된 1차 모형
-![complete](https://user-images.githubusercontent.com/88808251/133172930-a879c2ec-9439-4089-850f-03853375e5e2.png)
+![8](https://user-images.githubusercontent.com/33479996/134548538-96312527-3cdd-491c-9ccf-7c096bfca60a.PNG)
 
 ### 1차 완성본에 대한 기능적/비기능적 요구사항을 커버하는지 검증
 ![검증1](https://user-images.githubusercontent.com/88808251/133179151-31b820fe-0863-436a-9090-51b9a7f372ea.png)
