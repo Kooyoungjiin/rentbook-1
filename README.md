@@ -85,6 +85,7 @@ B. 도서관리
 
 ### 바운디드 컨텍스트로 묶기
 ![boundedct](https://user-images.githubusercontent.com/88808251/133041492-4cfab21a-06fd-49ae-9841-68c9986f0495.png)
+![5](https://user-images.githubusercontent.com/33479996/134546445-8f9facf2-ddf8-4634-b813-f1fc1e0d2007.PNG)
 
 ### 폴리시 부착 (괄호는 수행주체, 폴리시 부착을 둘째단계에서 해놔도 상관 없음. 전체 연계가 초기에 드러남)
 ![policy](https://user-images.githubusercontent.com/88808251/133041754-0be6eedd-56d0-4938-bf12-4ea5eeff6ed6.png)
