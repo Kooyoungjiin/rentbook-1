@@ -80,6 +80,8 @@ B. 도서관리
 
 ### 어그리게잇으로 묶기
 ![aggregate](https://user-images.githubusercontent.com/88808251/133040968-2c8724f1-1129-47be-b78c-b01e15eb81ea.png)
+![4](https://user-images.githubusercontent.com/33479996/134545454-887df387-7bdb-4d16-9540-ef7a764b6aa6.PNG)
+
 
 ### 바운디드 컨텍스트로 묶기
 ![boundedct](https://user-images.githubusercontent.com/88808251/133041492-4cfab21a-06fd-49ae-9841-68c9986f0495.png)
