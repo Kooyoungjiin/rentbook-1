@@ -108,6 +108,7 @@ B. 도서관리
 ![검증1](https://user-images.githubusercontent.com/88808251/133179151-31b820fe-0863-436a-9090-51b9a7f372ea.png)
 ![검증2](https://user-images.githubusercontent.com/88808251/133173230-9f45a13a-2d64-4475-99ae-87cb756e0706.png)
 
+![10](https://user-images.githubusercontent.com/33479996/135032913-771200f8-9d6d-4bbb-9a8e-5a5f9ab57bca.png)
 
 ## 헥사고날 아키텍처 다이어그램 도출
     
