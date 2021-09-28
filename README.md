@@ -302,6 +302,10 @@ http post localhost:8086/point customerId=1234 point=10000
 
 책 등록 
 http post localhost:8082/book bookId=1 price=1000 bookName=azureMaster
+
+예약 등록
+http POST localhost:8088/reservations bookId=1 customerId=1 startDate=2021-10-30 endDate=2021-11-01 reservationStatus=reserved
+
 ```
 
 ## Gateway 적용
@@ -341,6 +345,14 @@ spring:
           uri: http://localhost:8086
           predicates:
             - Path=/points/** 
+        - id: Reservation
+          uri: http://localhost:8087
+          predicates:
+            - Path=/reservations/** 
+        - id: Customer
+          uri: http://localhost:8089
+          predicates:
+            - Path=/customers/** 
       globalcors:
         corsConfigurations:
           '[/**]':
@@ -384,6 +396,14 @@ spring:
           uri: http://Point:8080
           predicates:
             - Path=/points/** 
+        - id: Reservation
+          uri: http://localhost:8087
+          predicates:
+            - Path=/reservations/** 
+        - id: Customer
+          uri: http://localhost:8089
+          predicates:
+            - Path=/customers/** 
       globalcors:
         corsConfigurations:
           '[/**]':
