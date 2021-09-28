@@ -623,6 +623,22 @@ cd kubernetes
 kubectl apply -f deployment.yml
 kubectl apply -f service.yaml
 
+cd ..
+cd Reservation
+az acr build --registry user0202 --image user0202.azurecr.io/gateway:latest
+
+cd kubernetes
+kubectl apply -f deployment.yml
+kubectl apply -f service.yaml
+
+cd ..
+cd Customer
+az acr build --registry user0202 --image user0202.azurecr.io/gateway:latest
+
+cd kubernetes
+kubectl apply -f deployment.yml
+kubectl apply -f service.yaml
+
 ```
 
 ## Config Map
