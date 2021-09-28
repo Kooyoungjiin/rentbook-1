@@ -576,6 +576,22 @@ rental 서비스에서 주문을 수신하게 작성되어 있다.
 
 ![SAGA5](https://user-images.githubusercontent.com/33479996/133035437-dab9c7ce-4316-4d64-af03-a4458ac163d3.PNG)
 
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+신규로 추가한 예약 기능은 Reservation 서비스를 트리거하게 되어 reservation을 업데이트하여 book 서비스에서 상태 변경을 진행한다.
+
+![11](https://user-images.githubusercontent.com/33479996/135036088-eb6078c3-0e8e-4f79-974c-f47e49ac4811.PNG)
+
+위와 같이 Reservation 서비스에서 예약을 발생시킨다.
+
+![12](https://user-images.githubusercontent.com/33479996/135036294-2b6f5558-4407-4668-9c4a-893269919460.PNG)
+
+그러면 위와 같이 reservation 상태를 통해 Book 서비스에서 Book의 isReserved 상태를 True로 변경하게 된다.
+
+
+
+
+
 
 # 운영
 
