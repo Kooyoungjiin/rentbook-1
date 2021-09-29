@@ -702,6 +702,13 @@ $ kubectl autoscale deploy booking --min=1 --max=10 --cpu-percent=15
 부하테스트 결과 HPA 반영
 ![image](https://user-images.githubusercontent.com/89369983/133118351-4315f1b0-85b9-46ea-b23a-9d90ac21f6d5.png)
 
+----------------------------------------------------------------------------------------------------------------
+Reservation 서비스에 부하 테스트
+
+![13](https://user-images.githubusercontent.com/33479996/135184247-4fa943b1-6aaa-4a6f-aac5-f7f65645c18c.PNG)
+
+
+
 ## Circuit Breaker
   * Istio 다운로드 및 PATH 추가, 설치
   * rentbook namespace에 Istio주입
